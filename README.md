@@ -7,7 +7,7 @@
            {
     "id": 1,
     "moment": "2021-06-28T10:59:10Z",
-    "status": "WAITING_PAYMENT",
+    "status": "PAID",
     "client": {
       "id": 1,
       "name": "bruno",
