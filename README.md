@@ -12,7 +12,7 @@
       "id": 1,
       "name": "bruno",
       "email": "bruno@gmail.com",
-      "phone": "75981395170",
+      "phone": "7599999999",
       "password": "AKSO9393923023920"
     },
     "items": [
