@@ -4,42 +4,62 @@
 
 
         [
-      {
+           {
     "id": 1,
-    "moment": "2021-06-27T16:06:40Z",
-    "status": "PAID",
+    "moment": "2021-06-28T10:59:10Z",
+    "status": "WAITING_PAYMENT",
     "client": {
       "id": 1,
       "name": "bruno",
       "email": "bruno@gmail.com",
-      "phone": "75999999999",
+      "phone": "75981395170",
       "password": "AKSO9393923023920"
     },
     "items": [
       {
-        "quantity": 1,
-        "price": 100.0,
-        "name": "X-BOX ONE",
-        "description": "Um otimo video-game para jogar com a familia",
-        "imgUrl": "https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg",
-        "subTotal": 100.0
-      },
-      {
         "quantity": 3,
         "price": 1200.0,
-        "name": "TV 90 POLEGADAS",
-        "description": "Otima TV para familia",
-        "imgUrl": "https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg",
+        "product": {
+          "id": 1,
+          "name": "TV 90 POLEGADAS",
+          "description": "Otima TV para familia",
+          "price": 1200.0,
+          "imgUrl": "https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg",
+          "categories": [
+            {
+              "id": 1,
+              "name": "ELETRONICO"
+            }
+          ]
+        },
         "subTotal": 3600.0
+      },
+      {
+        "quantity": 2,
+        "price": 100.0,
+        "product": {
+          "id": 2,
+          "name": "TV 20 POLEGADAS",
+          "description": "Otima TV para familia",
+          "price": 100.0,
+          "imgUrl": "https://raw.githubusercontent.com/devsuperior/sds2/master/assets/macarrao_penne.jpg",
+          "categories": [
+            {
+              "id": 1,
+              "name": "ELETRONICO"
+            }
+          ]
+        },
+        "subTotal": 200.0
       }
     ],
     "payment": {
       "id": 1,
-      "moment": "2021-06-27T16:06:41Z"
+      "moment": "2021-06-28T10:59:11Z"
     },
-    "total": 3700.0
-     }
-      ]
+    "total": 3800.0
+                        }
+                ]
 
 
  
